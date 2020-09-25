@@ -21,7 +21,7 @@ provider "aws" {
 resource "aws_ssm_parameter" "jeff" {
   name  = "/jeffs/cool/dev"
   type  = "String"
-  value = "something3"
+  value = "something"
 }
 
 output "param-value" {
